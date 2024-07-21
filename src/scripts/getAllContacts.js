@@ -11,5 +11,4 @@ export const getAllContacts = async () => {
     console.log(error);
   }
 };
-
-console.log(await getAllContacts());
+getAllContacts();
