@@ -10,4 +10,4 @@ export const removeAllContacts = async () => {
   }
 };
 
-removeAllContacts();
+await removeAllContacts();
