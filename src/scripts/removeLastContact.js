@@ -17,7 +17,6 @@ export const removeLastContact = async () => {
         JSON.stringify(contactsArray, null, 2),
         "UTF-8"
       );
-      console.log("Deleted last contact");
     } else {
       console.log("Contact list is empty!");
     }
